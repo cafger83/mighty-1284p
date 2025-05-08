@@ -1,5 +1,25 @@
 ##############################################################
 
+cube1284p_20.name=Cube 1284p 20MHz with Optiboot
+cube1284p_20.upload.protocol=arduino
+cube1284p_20.upload.maximum_size=130000
+cube1284p_20.upload.speed=115200
+cube1284p_20.upload.tool=arduino:avrdude
+cube1284p_20.bootloader.tool=arduino:avrdude
+cube1284p_20.bootloader.low_fuses=0xF7
+cube1284p_20.bootloader.high_fuses=0xD6
+cube1284p_20.bootloader.extended_fuses=0xFD
+cube1284p_20.bootloader.path=optiboot20
+cube1284p_20.bootloader.file=optiboot_atmega1284_20.hex
+cube1284p_20.bootloader.unlock_bits=0x3F
+cube1284p_20.bootloader.lock_bits=0x0F
+cube1284p_20.build.mcu=atmega1284p
+cube1284p_20.build.f_cpu=20000000L
+cube1284p_20.build.core=arduino:arduino
+cube1284p_20.build.variant=standard
+
+##############################################################
+
 mighty_opt.name=Mighty 1284p 16MHz using Optiboot
 mighty_opt.upload.protocol=arduino
 mighty_opt.upload.maximum_size=130048

@@ -39,8 +39,10 @@
 // location from which to read.
 #if (RAMEND < 1000)
   #define SERIAL_BUFFER_SIZE 16
-#else
+#elif (RAMEND < 8000)
   #define SERIAL_BUFFER_SIZE 64
+#else
+  #define SERIAL_BUFFER_SIZE 128
 #endif
 
 struct ring_buffer

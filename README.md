@@ -34,3 +34,10 @@ http://maniacbug.wordpress.com/2011/11/27/arduino-on-atmega1284p-4/
 * 'Bobuino'.  CrossRoads' board built for maximum compatibility with Arduino Uno-class shields.
 * 'Original Mighty 1284p 16MHz'.  The very first bootloader I ever got working.  Not recommended for use, but here as historical record.
 * 'Original Mighty 1284p 8MHz'.  Ditto, but runs at 8MHz.
+
+## Modifications (2025 by cafger83)
+
+* New board version with 20Mhz clock
+* Modified directory structure for newer Arduino versions
+* If onchip RAM is bigger than 8k, expand the serial port buffer to 128 bytes
+* Install: put the directory here: <sketchbook>/hardware/

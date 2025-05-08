@@ -39,5 +39,5 @@ http://maniacbug.wordpress.com/2011/11/27/arduino-on-atmega1284p-4/
 
 * New board version with 20Mhz clock
 * Modified directory structure for newer Arduino versions
-* If onchip RAM is bigger than 8k, expand the serial port buffer to 128 bytes
-* Install: put the directory here: <sketchbook>/hardware/
+* If onchip RAM is bigger than 8k (which is true for atmega1284p), expand the serial port buffer to 128 bytes
+* Install: put the directory here: your_sketchbook_directory/hardware/
